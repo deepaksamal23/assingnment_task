@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .price_card {
+    width: 100%;
+    padding: 6rem 1rem;
+    /* background: black; */
+  }
+  
+  .price_container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .card {
+    /* border: 2px solid violet; */
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+  
+  .card:hover {
+   
+  }
+  .card h3 {
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: rgb(0, 0, 0);
+  }
+  .card p {
+    padding: 10px 0;
+  }
+  
+  .bar {
+    border-bottom: 3px solid #0000FF;
+    width: 8rem;
+    margin: 1.1rem auto;
+    display: block;
+  }
+  
+  .BTC {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1rem 0;
+  }
+  .btn_price {
+    padding: 12px 32px;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(10, 189, 165);
+    display: block;
+    /* width: 80%; */
+    margin: 2rem auto;
+  }
+  @media (max-width: 740px) {
+    .price_container {
+      max-width: 90%;
+      margin: auto;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 1rem;
+    }
+    .card {
+      margin: 2rem;
+    }
+  }
+  

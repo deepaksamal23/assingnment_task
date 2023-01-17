@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* position: fixed; */
+    width: 100%;
+    height: 100px;
+    background-color: #ecf0f1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.menu_ui  {
+  display: flex;
+  margin-right: 13rem;
+
+}
+li a{
+    text-decoration: none;
+    list-style:none;
+   padding: 1rem;
+    font-weight: bold;
+    
+
+}
+li a:hover{
+    color: darkgoldenrod;
+}
+.active {
+    color: rgb(255, 30, 0);
+}

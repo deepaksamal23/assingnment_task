@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto Slab', serif;
+}
+
+
+h1,h4,a,p{
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}

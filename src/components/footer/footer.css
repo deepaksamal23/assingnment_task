@@ -1,0 +1,29 @@
+.footer{
+    width:100%;
+    padding:2rem 0;
+    background-color: #5f27cd;
+    
+}
+
+.footer_container{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7rem;
+   
+}
+
+.call p{
+    color: aliceblue;
+    font-weight: 600;
+}
+.location p{
+    color: aliceblue;
+    font-weight: 600;
+}
+.message p{
+    color: aliceblue;
+    font-weight: 600;
+}
